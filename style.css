@@ -1,0 +1,86 @@
+h1 { 
+	font-family:georgia;
+	color: #AC8C5C;
+	font-size: 45px;
+	text-shadow: 2px 1px 1px #AC8C5C;
+ }
+body {
+ 	background: #CCB4A4;
+}
+
+h2 { 
+ 	color: #B37B5F;
+ 	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+p { 
+  	font-family: georgia;
+  	font-size: 20px;
+}
+
+.paragraph { 
+	color:#844A19;
+}
+
+.center_div {
+	text-align: center;
+	margin: 50px 50px;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+#source_maison {
+	font-size: 11px;
+}
+
+#linkedin {
+	color: #B37B5F;
+	margin: 10px 20px;
+}
+
+#linkedin:hover {
+	color:#AC8C5C;
+	text-decoration:none;
+}
+
+#femme_photo {
+	width: 550px;
+	height: 250px;
+	box-shadow: 2px 2px 3px black;
+	object-fit: cover;
+	border: 10px solid #CCB4A4;
+}
+
+#brown_paragraph { 
+	color: brown;
+ }
+
+ #ghada_1 {
+ 	text-decoration: underline;
+ 	color:brown;
+ }
+
+#ghada_1:hover {
+	color:#844A19;
+	text-decoration:none;
+}
+
+#moi_image { 
+	text-align: left;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+ 	margin: 10px 20px;
+}
+
+@media (max-width: 450px) {
+#femme_photo {
+	width: 350px;
+	height: 100px;
+ }
+}
+
